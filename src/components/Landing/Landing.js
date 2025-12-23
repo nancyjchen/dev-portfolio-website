@@ -159,15 +159,15 @@ function Landing() {
                         className='lcr--content'
                         style={{ color: theme.tertiary }}
                     >
-                        <h6>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
-                        <p>{headerData.desciption}</p>
+                        <h6>{headerData.title}</h6>
+                        <p>{headerData.description}</p>
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download='Nancy_J_Chen_Resume'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
