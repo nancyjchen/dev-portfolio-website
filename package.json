@@ -52,5 +52,11 @@
   },
   "engines": {
     "node": "24.x"
+  },
+  "overrides": {
+    "@material-ui/core": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    }
   }
 }

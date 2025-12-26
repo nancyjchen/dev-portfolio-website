@@ -3,7 +3,7 @@ import a2 from '../assets/png/achievement_2.png'
 import a3 from '../assets/png/achievement_3.png'
 
 export const achievementData = {
-    bio : "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn. - Alvin Toffler",
+    bio : "",
     achievements : [
         {
             id : 1,
