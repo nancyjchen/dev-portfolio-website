@@ -292,7 +292,7 @@ function Contacts() {
                                 {contactsData.email}
                             </p>
                         </a>
-                        <a
+                        {/* <a
                             // href={`tel:${contactsData.phone}`}
                             className='personal-details'
                         >
@@ -310,7 +310,7 @@ function Contacts() {
                             <p style={{ color: theme.tertiary }}>
                                 {contactsData.address}
                             </p>
-                        </div>
+                        </div> */}
 
                         <div className='socialmedia-icons'>
                             {/* {socialsData.twitter && (

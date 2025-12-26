@@ -7,54 +7,57 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 
+import p1 from '../assets/svg/projects/p1.svg'
+import p2 from '../assets/svg/projects/p2.svg'
+import p3 from '../assets/svg/projects/p3.svg'
+
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'History Through Movies',
-        projectDesc: 'This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.',
-        tags: ['Django', 'HTML' ,'CSS', 'Javascript'],
-        code: 'https://github.com/sreerag-rajan/historythroughmovies',
-        demo: 'https://historythroughmovies.pythonanywhere.com/',
-        image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
+        projectName: 'Bill Splitting Automation Tool',
+        projectDesc: 'Developed an automated bill-splitting tool that generates dynamic Excel workbooks to calculate fair cost distribution, including taxes and tips, for any group size. The solution significantly reduced manual calculation time by leveraging spreadsheet logic and automation.',
+        tags: ['Python', 'OpenPyXL'],
+        code: 'https://github.com/nancyjchen/Bill-Splitting-Automation-Tool',
+        demo: p1,
+        image: p1
     },
     {
         id: 2,
-        projectName: 'Sportsjam.in Clone',
-        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
-        tags: ['HTML', 'CSS','Javascript'],
-        code: 'https://github.com/sreerag-rajan/sportsjam-clone',
-        demo: 'https://practical-meninsky-36f305.netlify.app/',
-        image: "https://camo.githubusercontent.com/f9fbe30b577cff2fbf09af53fb3c1f12fcc10a771bf9459ed5af10bffab9e38b/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3837352f312a525f5f63646e384c316759474b3154647171797562672e706e67"
+        projectName: 'Catch It, Recycle It',
+        projectDesc: 'Co-led the development of an interactive educational game that promotes environmental awareness through engaging recycling-themed gameplay. Built a responsive Java Swing GUI with integrated sprites to deliver a smooth and intuitive user experience.',
+        tags: ['Java', 'Java Swing','Trello'],
+        code: 'https://github.com/johncast14/JumboCode',
+        demo: p2,
+        image: p2
     },
     {
         id: 3,
-        projectName: 'Educative Clone',
-        projectDesc: 'This project is the clone of Educative.io. Built as part of Project week, my contributions include the home page(both with user and without user), course information page and checkout page. The rest of the pages and features were built by other members of my team',
-        tags: ['React', 'Material UI', 'Express', "MongoDB","NodeJS"],
-        code: 'https://github.com/sreerag-rajan/educative-clone',
-        demo: 'https://educative-clone.vercel.app/',
-        image: "https://user-images.githubusercontent.com/85482640/161571651-35ab8e4e-dc57-4834-bafc-9485766f5b8a.png"
+        projectName: 'Musical Java',
+        projectDesc: 'Independently built a custom music player application that programmatically generates and plays musical compositions with real-time instrument switching capabilities.',
+        tags: ['Java', 'Java Swing', 'JFugue Library'],
+        code: 'https://github.com/nancyjchen/Musical-Java',
+        demo: p3,
+        image: p3
     },
-    {
-        id: 4,
-        projectName: 'Reliance Digital Clone - Backend Integration',
-        projectDesc: 'This is the clone of reliancedigital.in. Features I worked on the Product Catalogue pages and also on some minor parts on other pages as well',
-        tags: ['EJS', 'Express', 'MongoDB', 'Node.js'],
-        code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
-    },
-    {
-        id: 5,
-        projectName: 'Reliance Digital Clone - Frontend',
-        projectDesc: 'This project is the clone of Reliance Digital built as a part of a project week. It simulates the functionality of an e-commerce website from landing page to checkout. My contribution was the product catalog page arriving from the navbar, as well as leading the team.',
-        tags: ['HTML', 'CSS', 'Javascript'],
-        code: 'https://github.com/iamrituyadav/Reliance_digital',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
-    },
-    
+    // {
+    //     id: 4,
+    //     projectName: 'Reliance Digital Clone - Backend Integration',
+    //     projectDesc: 'This is the clone of reliancedigital.in. Features I worked on the Product Catalogue pages and also on some minor parts on other pages as well',
+    //     tags: ['EJS', 'Express', 'MongoDB', 'Node.js'],
+    //     code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
+    //     demo: 'https://reliance-digital-clone.herokuapp.com/',
+    //     image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+    // },
+    // {
+    //     id: 5,
+    //     projectName: 'Reliance Digital Clone - Frontend',
+    //     projectDesc: 'This project is the clone of Reliance Digital built as a part of a project week. It simulates the functionality of an e-commerce website from landing page to checkout. My contribution was the product catalog page arriving from the navbar, as well as leading the team.',
+    //     tags: ['HTML', 'CSS', 'Javascript'],
+    //     code: 'https://github.com/iamrituyadav/Reliance_digital',
+    //     demo: 'https://reliance-digital-clone.herokuapp.com/',
+    //     image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+    // },
 ]
 
 
